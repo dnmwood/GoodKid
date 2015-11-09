@@ -27,7 +27,6 @@ a {
  	margin-left: auto;
  	font-size: 26px;
 	line-height: 40px;
-	color: white;
  }
 
 .section {
@@ -105,9 +104,13 @@ About
 	color: white;
 }
 
+.about p {
+	color: white;
+}
+
+
 .about {
 	height: 500px;
-	width: 100%;
 	background-image: url("../images/band-pic-bw.jpg");
 	background-position: 50% 50%;
 	background-size: cover;
