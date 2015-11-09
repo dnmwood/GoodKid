@@ -2,15 +2,31 @@
 GENERAL
 *************************************/
 
-.banner {
-	text-align: center;
-}
 
-.music {
+/************************************
+HEADER
+*************************************/
+
+
+.banner {
 	text-align: center;
 }
 
 .gk-nomu {
 	height: 1000px;
 	width: 900px;
+}
+
+/************************************
+MUSIC
+*************************************/
+
+
+.music {
+	text-align: center;
+}
+
+.soundcloud {
+	width: 50%;
+	height: 150;
 }
