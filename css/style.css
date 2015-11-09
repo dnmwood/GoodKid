@@ -27,6 +27,7 @@ a {
  	margin-left: auto;
  	font-size: 26px;
 	line-height: 40px;
+	color: white;
  }
 
 .section {
@@ -73,8 +74,8 @@ HEADER
 	height: 600px;
 	width: 100%;
 	/*background-image: url("../images/band-pic-bw.jpg");*/
-	/*background-image: url("../images/good-kid-banner-med.jpg");*/
-	background-image: url("../images/good-kid-nomu.jpg");
+	background-image: url("../images/good-kid-banner-med.jpg");
+	/*background-image: url("../images/good-kid-nomu.jpg");*/
 	/*background-image: url("../images/dave-jake.jpg");*/
 	/*background-image: url("../images/band-pic.jpg");*/
 	background-position: 50% 50%;
@@ -97,6 +98,23 @@ HEADER
 }*/
 
 /************************************
+About
+*************************************/
+
+.about h2 {
+	color: white;
+}
+
+.about {
+	height: 500px;
+	width: 100%;
+	background-image: url("../images/band-pic-bw.jpg");
+	background-position: 50% 50%;
+	background-size: cover;
+	position: relative;
+	}
+
+/************************************
 MUSIC
 *************************************/
 
@@ -112,7 +130,7 @@ MUSIC
 }
 
 /************************************
-MUSIC
+SHOWS
 *************************************/
 
 .shows {
@@ -131,4 +149,14 @@ CONTACT
 	margin-right: auto;
 	margin-left: auto;
 	background-color: grey;
+}
+
+footer p {
+	font-size: 16px;
+}
+
+#social-links-footer {
+	width: 100%;
+	padding-top: 25px;
+	margin: 0 auto;
 }
