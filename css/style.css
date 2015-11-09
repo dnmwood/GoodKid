@@ -15,6 +15,36 @@ GENERAL
 HEADER
 *************************************/
 
+.nav-menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	float: none;
+	position: relative;
+}
+
+.nav-link {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	text-decoration: none;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+.nav-link a {
+	  padding-top: 6px;
+    padding-bottom: 6px;
+    /*font-family: "futura-pt",sans-serif;*/
+    text-transform: uppercase;
+    /*color: #ddd;*/
+    font-size: 24px;
+    text-align: right;
+    font-weight: 500;
+    text-decoration: none;
+}
 
 .banner {
 	text-align: center;
