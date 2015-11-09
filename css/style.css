@@ -2,6 +2,14 @@
 GENERAL
 *************************************/
 
+.section-title {
+	margin-bottom: 30px;
+	font-size: 60px;
+	line-height: 80px;
+	text-align: center;
+	font-weight: 500;
+	text-transform: uppercase;
+}
 
 /************************************
 HEADER
@@ -13,8 +21,8 @@ HEADER
 }
 
 .gk-nomu {
-	height: 1000px;
-	width: 900px;
+	height: 700px;
+	width: 700px;
 }
 
 /************************************
@@ -29,4 +37,14 @@ MUSIC
 .soundcloud {
 	width: 50%;
 	height: 150;
+}
+
+/************************************
+MUSIC
+*************************************/
+
+.shows {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 940px;
 }
