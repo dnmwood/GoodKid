@@ -70,15 +70,17 @@ HEADER
 
 .banner {
 	text-align: center;
-	height: 600px;
+	height: 700px;
 	width: 100%;
 	/*background-image: url("../images/band-pic-bw.jpg");*/
-	background-image: url("../images/good-kid-banner-med.jpg");
+	/*background-image: url("../images/good-kid-banner-med.jpg");*/
+	background-image: url("../images/good-kid-transparent.png");
 	/*background-image: url("../images/good-kid-nomu.jpg");*/
 	/*background-image: url("../images/dave-jake.jpg");*/
 	/*background-image: url("../images/band-pic.jpg");*/
 	background-position: 50% 50%;
-	background-size: cover;
+	background-size: 40%;
+	background-repeat: no-repeat;
 	position: relative;
 }
 
