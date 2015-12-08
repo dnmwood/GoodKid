@@ -74,14 +74,32 @@ HEADER
 	width: 100%;
 	/*background-image: url("../images/band-pic-bw.jpg");*/
 	/*background-image: url("../images/good-kid-banner-med.jpg");*/
-	background-image: url("../images/good-kid-transparent.png");
+	background-image: url("../images/watercolor-txtr-for-web.jpg");
 	/*background-image: url("../images/good-kid-nomu.jpg");*/
 	/*background-image: url("../images/dave-jake.jpg");*/
 	/*background-image: url("../images/band-pic.jpg");*/
 	background-position: 50% 50%;
-	background-size: 40%;
+	background-size: cover;
 	background-repeat: no-repeat;
 	position: relative;
+}
+
+.gk {
+	text-align: center;
+	height: 700px;
+	width: 100%;
+	/*background-image: url("../images/band-pic-bw.jpg");*/
+	/*background-image: url("../images/good-kid-banner-med.jpg");*/
+	/*background-image: url("../images/watercolor-txtr-for-web.jpg");*/
+	/*background-image: url("../images/good-kid-nomu.jpg");*/
+	/*background-image: url("../images/dave-jake.jpg");*/
+	/*background-image: url("../images/band-pic.jpg");*/
+	background-image: url("../images/good-kid-transparent.png");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: 40%;
+	position: relative;
+	
 }
 
 #social-links {
@@ -103,17 +121,18 @@ About
 *************************************/
 
 .about h2 {
-	color: white;
+	color: black;
 }
 
 .about p {
-	color: white;
+	color: black;
 }
 
 
 .about {
 	height: 500px;
 	background-image: url("../images/band-pic-bw.jpg");
+	/*background-image: url("../images/watercolor-txtr-for-web.jpg");*/
 	background-position: 50% 50%;
 	background-size: cover;
 	position: relative;
@@ -154,6 +173,8 @@ CONTACT
 	margin-right: auto;
 	margin-left: auto;
 	background-color: grey;
+	background-image: url("../images/watercolor-txtr-for-web.jpg");
+	background-size: cover;
 }
 
 footer p {
