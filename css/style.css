@@ -93,7 +93,7 @@ HEADER
 	/*background-image: url("../images/watercolor-txtr-for-web.jpg");*/
 	/*background-image: url("../images/good-kid-nomu.jpg");*/
 	/*background-image: url("../images/dave-jake.jpg");*/
-	/*background-image: url("../images/band-pic.jpg");*/
+	
 	background-image: url("../images/good-kid-transparent.png");
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
@@ -120,19 +120,28 @@ HEADER
 About
 *************************************/
 
+.band-pic {
+	background-image: url("../images/band-pic-bw.jpg");
+	/*background-image: url("../images/band-pic.jpg");*/
+	background-position: 50% 10%;
+	background-size: cover;
+	height: 400px;
+}
+
 .about h2 {
 	color: black;
 }
 
 .about p {
 	color: black;
+	font-size: 20px;
 }
 
 
 .about {
-	height: 500px;
-	background-image: url("../images/band-pic-bw.jpg");
-	/*background-image: url("../images/watercolor-txtr-for-web.jpg");*/
+	height: 400px;
+	/*background-image: url("../images/band-pic-bw.jpg");*/
+	background-image: url("../images/watercolor-txtr-for-web.jpg");
 	background-position: 50% 50%;
 	background-size: cover;
 	position: relative;
