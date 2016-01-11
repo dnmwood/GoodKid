@@ -153,13 +153,8 @@ MUSIC
 
 
 .music {
+    padding-top: 0em;
 	text-align: center;
-	/*background-color: grey;*/
-}
-
-.soundcloud {
-	width: 50%;
-	height: 150;
 }
 
 /************************************
