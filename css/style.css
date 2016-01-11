@@ -115,33 +115,28 @@ HEADER
 About
 *************************************/
 
-.band-pic {
-	background-image: url("../images/band-pic-bw.jpg");
-	/*background-image: url("../images/band-pic.jpg");*/
-	background-position: 50% 10%;
-	background-size: cover;
-	height: 400px;
-}
-
 .about h2 {
-	color: black;
+	color: #e9e9e9;
 }
 
 .about p {
-	color: black;
+	color: #e9e9e9;
 	font-size: 20px;
 }
 
 
 .about {
-	height: 400px;
-	/*background-image: url("../images/band-pic-bw.jpg");*/
-	background-image: url("../images/watercolor-txtr-for-web.jpg");
+	background-image: url("../images/band-pic-bw.jpg");
 	background-position: 50% 50%;
 	background-size: cover;
 	position: relative;
     padding-top: 10px;
 	}
+
+.about .text-bg {
+    background-color: rgba(0,0,0,0.6);
+    padding-bottom: 10px;
+}
 
 /************************************
 MUSIC
