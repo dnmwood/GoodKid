@@ -140,6 +140,7 @@ About
 	background-position: 50% 50%;
 	background-size: cover;
 	position: relative;
+    padding-top: 10px;
 	}
 
 /************************************
@@ -160,6 +161,7 @@ SHOWS
 	margin-right: auto;
 	margin-left: auto;
 	max-width: 940px;
+    padding-top: 0px;
 }
 
 
