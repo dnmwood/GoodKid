@@ -19,7 +19,7 @@ a {
  }
 
  h2 {
- 	  margin-bottom: 30px;
+ 	margin: 0;
     text-transform: uppercase;
     font-size: 60px;
     line-height: 80px;
@@ -28,9 +28,6 @@ a {
  }
 
  p {
- 	/*max-width: 70%;*/
-/* 	margin-right: auto;
- 	margin-left: auto;*/
  	font-size: 26px;
 	line-height: 40px;
  }
@@ -38,6 +35,7 @@ a {
 .section {
 	padding: 60px;
     margin: 0 auto;
+    text-align: center;
 }
 
 /************************************
@@ -46,8 +44,6 @@ HEADER
 
 .banner {
 	text-align: center;
-/*    height: 700px;
-    height: 100vh;*/
 	width: 100%;
 	background-image: url("../images/watercolor-txtr-for-web-min.jpg");
 	background-position: 50% 50%;
@@ -58,21 +54,9 @@ HEADER
 
 .gk {
 	text-align: center;
-    /*height: 100vh;*/
 	width: 100%;
     padding: 60px;
     position: relative;
-/*	background-image: url("../images/band-pic-bw.jpg");
-	background-image: url("../images/good-kid-banner-med.jpg");
-	background-image: url("../images/watercolor-txtr-for-web.jpg");
-	background-image: url("../images/good-kid-nomu.jpg");
-	background-image: url("../images/dave-jake.jpg");
-
-	background-image: url("../images/good-kid-transparent.png");
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	background-size: 40%;
-	position: relative;*/
 }
 
 .nav-menu {
@@ -162,16 +146,6 @@ About
 MUSIC
 *************************************/
 
-
-.music {
-  padding-top: 0em;
-	text-align: center;
-}
-
-.music h2 {
-  padding-top: 0em;
-}
-
 /************************************
 SHOWS
 *************************************/
@@ -180,21 +154,14 @@ SHOWS
 	max-width: 1200px;
 }
 
-.shows h2 {
-    margin-top: 0;
-}
-
 
 /************************************
 CONTACT
 *************************************/
 
 .contact {
-	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
 	background-color: grey;
-	background-image: url("../images/watercolor-txtr-for-web.jpg");
+	background-image: url("../images/watercolor-txtr-for-web-min.jpg");
 	background-size: cover;
 }
 
