@@ -39,44 +39,14 @@ a {
 	padding: 80px 60px;
 }
 
-
 /************************************
 HEADER
 *************************************/
 
-.nav-menu {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	padding-top: 50px;
-	float: none;
-	position: relative;
-}
-
-.nav-link {
-	position: relative;
-	display: inline-block;
-	vertical-align: top;
-	text-decoration: none;
-	padding: 20px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: left;
-}
-
-.nav-link a {
-	  padding-top: 6px;
-    padding-bottom: 6px;
-    text-transform: uppercase;
-    font-size: 24px;
-    text-align: right;
-    font-weight: 700;
-    text-decoration: none;
-}
-
 .banner {
 	text-align: center;
-	height: 700px;
+/*    height: 700px;
+    height: 100vh;*/
 	width: 100%;
 	background-image: url("../images/watercolor-txtr-for-web-min.jpg");
 	background-position: 50% 50%;
@@ -87,27 +57,65 @@ HEADER
 
 .gk {
 	text-align: center;
-	height: 700px;
+    /*height: 100vh;*/
 	width: 100%;
-	/*background-image: url("../images/band-pic-bw.jpg");*/
-	/*background-image: url("../images/good-kid-banner-med.jpg");*/
-	/*background-image: url("../images/watercolor-txtr-for-web.jpg");*/
-	/*background-image: url("../images/good-kid-nomu.jpg");*/
-	/*background-image: url("../images/dave-jake.jpg");*/
+    padding: 60px;
+    position: relative;
+/*	background-image: url("../images/band-pic-bw.jpg");
+	background-image: url("../images/good-kid-banner-med.jpg");
+	background-image: url("../images/watercolor-txtr-for-web.jpg");
+	background-image: url("../images/good-kid-nomu.jpg");
+	background-image: url("../images/dave-jake.jpg");
 
-	background-image: url("../images/good-kid-transparent-min.png");
+	background-image: url("../images/good-kid-transparent.png");
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: 40%;
-	position: relative;
-
+	position: relative;*/
 }
 
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: none;
+    position: relative;
+}
+
+.nav-link {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.nav-link a {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: right;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.nomu-cover {
+    max-height: 584px;
+    max-height: 75vh;
+    margin-top: 10px;
+    /*height: 100%;*/
+    max-width: 100%;
+}
+
+/*.nomu-cover img {
+    max-width: 100%;
+}*/
+
 #social-links {
-	position: absolute;
-	bottom: 20px;
-	width: 100%;
-	margin: 0 auto;
 }
 
 /*
