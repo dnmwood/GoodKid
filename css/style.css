@@ -2,6 +2,12 @@
 GENERAL
 *************************************/
 
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
 body {
   font-family: 'Lato', sans-serif;
 }
@@ -12,8 +18,22 @@ a {
   text-decoration: none;
  }
 
+ a:hover {
+    text-decoration: underline;
+ }
+
+.fa-stack a {
+    transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -webkit-transition: all 0.25s ease;
+}
+
+ .fa-stack a:hover {
+    color: #A8AAC9;
+ }
+
  h2 {
- 	  margin-bottom: 30px;
+ 	margin: 0;
     text-transform: uppercase;
     font-size: 60px;
     line-height: 80px;
@@ -22,57 +42,43 @@ a {
  }
 
  p {
- 	max-width: 70%;
- 	margin-right: auto;
- 	margin-left: auto;
  	font-size: 26px;
 	line-height: 40px;
  }
 
 .section {
-	padding: 80px 60px;
+	padding: 60px;
+    margin: 0 auto;
+    text-align: center;
 }
 
+@media screen and (max-width: 748px) {
+    .section {
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .section {
+        padding: 40px 20px;
+    }
+    h2 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    p {
+        font-size: 18px;
+    }
+}
 
 /************************************
 HEADER
 *************************************/
 
-.nav-menu {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	padding-top: 50px;
-	float: none;
-	position: relative;
-}
-
-.nav-link {
-	position: relative;
-	display: inline-block;
-	vertical-align: top;
-	text-decoration: none;
-	padding: 20px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: left;
-}
-
-.nav-link a {
-	  padding-top: 6px;
-    padding-bottom: 6px;
-    text-transform: uppercase;
-    font-size: 24px;
-    text-align: right;
-    font-weight: 700;
-    text-decoration: none;
-}
-
 .banner {
 	text-align: center;
-	height: 700px;
 	width: 100%;
-	background-image: url("../images/watercolor-txtr-for-web.jpg");
+	background-image: url("../images/watercolor-txtr-for-web-min.jpg");
 	background-position: 50% 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -81,27 +87,55 @@ HEADER
 
 .gk {
 	text-align: center;
-	height: 700px;
 	width: 100%;
-	/*background-image: url("../images/band-pic-bw.jpg");*/
-	/*background-image: url("../images/good-kid-banner-med.jpg");*/
-	/*background-image: url("../images/watercolor-txtr-for-web.jpg");*/
-	/*background-image: url("../images/good-kid-nomu.jpg");*/
-	/*background-image: url("../images/dave-jake.jpg");*/
-
-	background-image: url("../images/good-kid-transparent.png");
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	background-size: 40%;
-	position: relative;
-
+    padding: 60px;
+    position: relative;
 }
 
-#social-links {
-	position: absolute;
-	bottom: 20px;
-	width: 100%;
-	margin: 0 auto;
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: none;
+    position: relative;
+}
+
+.nav-link {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    margin: 0px 20px 10px 20px;
+    text-align: left;
+}
+
+.nav-link a {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: right;
+    font-weight: 700;
+    transition: all 0.1s ease;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+}
+
+.nav-link a:hover {
+    text-decoration: none;
+    border-bottom: 4px solid #000;
+}
+
+.nomu-cover {
+    max-height: 584px;
+    max-height: 75vh;
+    margin-top: 10px;
+    /*height: 100%;*/
+    max-width: 100%;
+}
+
+.fa-stack a {
+
 }
 
 /*
@@ -111,45 +145,64 @@ HEADER
 
 }*/
 
+@media screen and (max-width: 748px) {
+    .gk {
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 48px) {
+    .gk {
+        padding: 20px;
+    }
+}
+
+
 /************************************
 About
 *************************************/
 
 .about h2 {
 	color: #e9e9e9;
+    margin-top: 0;
 }
 
 .about p {
 	color: #e9e9e9;
 	font-size: 20px;
+    text-align: left;
 }
 
 
 .about {
-	background-image: url("../images/band-pic-bw.jpg");
-	background-position: 50% 50%;
+	background-image: url("../images/band-pic-bw-min.jpg");
+	background-position: center top;
 	background-size: cover;
 	position: relative;
-    padding-top: 10px;
-	}
+}
 
 .about .text-bg {
-    background-color: rgba(0,0,0,0.6);
-    padding-bottom: 10px;
+    background-color: rgba(0,0,0,0.65);
+    padding: 60px 80px;
+    max-width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 480px) {
+    .about .text-bg {
+        padding: 20px;
+        max-width: 100%;
+    }
 }
 
 /************************************
 MUSIC
 *************************************/
 
-
-.music {
-  padding-top: 0em;
-	text-align: center;
-}
-
-.music h2 {
-  padding-top: 0em;
+.music iframe {
+    max-width: 100% !important;
 }
 
 /************************************
@@ -157,10 +210,7 @@ SHOWS
 *************************************/
 
 .shows {
-	margin-right: auto;
-	margin-left: auto;
-	max-width: 940px;
-    padding-top: 0px;
+	max-width: 1200px;
 }
 
 
@@ -169,11 +219,8 @@ CONTACT
 *************************************/
 
 .contact {
-	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
 	background-color: grey;
-	background-image: url("../images/watercolor-txtr-for-web.jpg");
+	background-image: url("../images/watercolor-txtr-for-web-min.jpg");
 	background-size: cover;
 }
 
@@ -181,8 +228,17 @@ footer p {
 	font-size: 16px;
 }
 
+footer p a {
+    display: block;
+    line-height: 30px;
+}
+
 #social-links-footer {
 	width: 100%;
 	padding-top: 25px;
 	margin: 0 auto;
+}
+
+.contact a {
+    font-weight: 900;
 }
