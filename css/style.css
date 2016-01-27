@@ -38,6 +38,25 @@ a {
     text-align: center;
 }
 
+@media screen and (max-width: 748px) {
+    .section {
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .section {
+        padding: 40px 20px;
+    }
+    h2 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    p {
+        font-size: 18px;
+    }
+}
+
 /************************************
 HEADER
 *************************************/
@@ -73,9 +92,8 @@ HEADER
     vertical-align: top;
     text-decoration: none;
     padding: 0 20px;
-    margin-left: auto;
-    margin-right: auto;
     text-align: left;
+    line-height: 35px;
 }
 
 .nav-link a {
@@ -110,6 +128,19 @@ HEADER
 
 }*/
 
+@media screen and (max-width: 748px) {
+    .gk {
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 48px) {
+    .gk {
+        padding: 20px;
+    }
+}
+
+
 /************************************
 About
 *************************************/
@@ -142,9 +173,20 @@ About
     border-radius: 5px;
 }
 
+@media screen and (max-width: 480px) {
+    .about .text-bg {
+        padding: 20px;
+        max-width: 100%;
+    }
+}
+
 /************************************
 MUSIC
 *************************************/
+
+.music iframe {
+    max-width: 100% !important;
+}
 
 /************************************
 SHOWS
