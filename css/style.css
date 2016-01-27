@@ -28,15 +28,16 @@ a {
  }
 
  p {
- 	max-width: 70%;
- 	margin-right: auto;
- 	margin-left: auto;
+ 	/*max-width: 70%;*/
+/* 	margin-right: auto;
+ 	margin-left: auto;*/
  	font-size: 26px;
 	line-height: 40px;
  }
 
 .section {
-	padding: 80px 60px;
+	padding: 60px;
+    margin: 0 auto;
 }
 
 /************************************
@@ -131,25 +132,30 @@ About
 
 .about h2 {
 	color: #e9e9e9;
+    margin-top: 0;
 }
 
 .about p {
 	color: #e9e9e9;
 	font-size: 20px;
+    text-align: left;
 }
 
 
 .about {
 	background-image: url("../images/band-pic-bw.jpg");
-	background-position: 50% 50%;
+	background-position: center top;
 	background-size: cover;
 	position: relative;
-    padding-top: 10px;
-	}
+}
 
 .about .text-bg {
-    background-color: rgba(0,0,0,0.6);
-    padding-bottom: 10px;
+    background-color: rgba(0,0,0,0.65);
+    padding: 60px 80px;
+    max-width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
 }
 
 /************************************
