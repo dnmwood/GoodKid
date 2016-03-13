@@ -1,0 +1,15 @@
+
+p {
+    color: #EFEFEF;
+    font-size: 15px;
+    line-height: 20px;
+}
+#message {
+    background-color: rgba(0,0,0,0.35);
+    padding: 60px 80px;
+    max-width: 50%;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px
+    border-radius: 5px;
+}
